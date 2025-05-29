@@ -1,4 +1,4 @@
-// import Experience from "@/components/Experience";
+import Experience from "@/components/Experience";
 // import LinkWithIcon from "@/components/LinkWithIcon";
 // import Projects from "@/components/Projects";
 import Socials from "@/components/Socials";
@@ -33,7 +33,7 @@ export default async function Home() {
 
           <section className="mt-8 flex items-center gap-8">
             <Link href="/resume.pdf" target="_blank">
-              <Button variant="outline">
+              <Button variant="outline" className="cursor-pointer">
                 <span className="font-semibold">Resume</span>
                 <FileDown className="ml-2 size-5" />
               </Button>
@@ -42,6 +42,10 @@ export default async function Home() {
           </section>
         </div>
       </section>
+
+      <Experience />
+
+
     </article>
   );
 }

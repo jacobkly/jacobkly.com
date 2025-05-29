@@ -12,7 +12,7 @@ export default function Footer() {
                         jacobkly.com
                     </Link>
                     {" | "}
-                    🎷
+                    <span style={{ fontSize: "1.25em" }}>🎷</span>
                 </p>
             </section>
         </footer>

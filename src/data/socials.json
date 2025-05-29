@@ -14,6 +14,11 @@
             "name": "Email",
             "href": "mailto:test@gmail.com",
             "icon": "mail"
+        },
+        {
+            "name": "X (Twitter)",
+            "href": "https://x.com/jacobklymenko",
+            "icon": "twitter"
         }
     ]
 }
