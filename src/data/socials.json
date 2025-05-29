@@ -1,0 +1,19 @@
+{
+    "socials": [
+        {
+            "name": "LinkedIn",
+            "href": "https://linkedin.com/in/jacob-kly",
+            "icon": "linkedin"
+        },
+        {
+            "name": "GitHub",
+            "href": "https://github.com/jacobkly",
+            "icon": "github"
+        },
+        {
+            "name": "Email",
+            "href": "mailto:test@gmail.com",
+            "icon": "mail"
+        }
+    ]
+}
