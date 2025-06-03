@@ -15,8 +15,8 @@
             "logo": "/uw.png",
             "start": "Mar 2025",
             "description": [
-                "Evaluating Java projects emphasizing correctness and object-oriented design principles.",
-                "Providing clear, constructive feedback to enhance student growth and code quality in an Introduction to Java course."
+                "Evaluating Java projects on correctness and object-oriented design principles.",
+                "Providing feedback to enhance student growth and code quality."
             ]
         },
         {
@@ -25,7 +25,7 @@
             "title": "Software Engineer Researcher",
             "logo": "/uw.png",
             "start": "Jan 2025",
-            "end": "May 2025",
+            "end": "June 2025",
             "description": [
                 "Performed a Systematic Mapping Study on autonomous drone security as the first author, entered at an A-ranked software engineering conference.",
                 "Identified spoofing and network attacks as the primary threats, with machine learning emerging as the leading detection technique."
