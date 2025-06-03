@@ -1,0 +1,83 @@
+{
+    "projects": [
+        {
+            "name": "UHealth",
+            "description": "CNN-based pneumonia screening model with 92% accuracy with 2nd place hackathon standing",
+            "image": "/uhealth.png",
+            "tags": [
+                "Python",
+                "Flask",
+                "SQLite",
+                "Machine Learning",
+                "TensorFlow",
+                "Docker",
+                "Streamlit"
+            ],
+            "links": [
+                {
+                    "name": "Source",
+                    "href": "https://github.com/NickJordan-BE/UHealth",
+                    "icon": "github"
+                }
+            ]
+        },
+        {
+            "name": "BibleStudy.ai",
+            "description": "Mobile Bible app with personal chatbot to help study",
+            "image": "/biblestudy_ai.jpg",
+            "tags": [
+                "Python",
+                "FastAPI",
+                "Dart",
+                "Flutter",
+                "PostgreSQL"
+            ],
+            "links": [
+                {
+                    "name": "Source",
+                    "href": "https://github.com/jacobkly/biblestudy-ai",
+                    "icon": "github"
+                }
+            ]
+        },
+        {
+            "name": "UMarket",
+            "description": "Marketplace for UW students to buy and sell second hand items",
+            "image": "/umarket.png",
+            "tags": [
+                "TypeScript",
+                "React",
+                "Node.js",
+                "Express.js",
+                "PostgreSQL",
+                "Docker",
+                "AWS S3"
+            ],
+            "links": [
+                {
+                    "name": "Source",
+                    "href": "https://github.com/TechStartupClub/UMarket",
+                    "icon": "github"
+                }
+            ]
+        },
+        {
+            "name": "moviewatchers",
+            "description": "Proof-of-concept app scanning local storage (w/ permission) to organize and play videos through your browser",
+            "image": "/moviewatchers.png",
+            "tags": [
+                "Go",
+                "TypeScript",
+                "React",
+                "FFmpeg"
+            ],
+            "links": [
+                {
+                    "name": "Source",
+                    "href": "https://github.com/jacobkly/moviewatchers",
+                    "icon": "github"
+                }
+            ]
+        }
+    ]
+}

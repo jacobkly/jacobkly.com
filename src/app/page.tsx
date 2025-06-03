@@ -1,13 +1,14 @@
 import Experience from "@/components/Experience";
-// import LinkWithIcon from "@/components/LinkWithIcon";
-// import Projects from "@/components/Projects";
+import LinkWithIcon from "@/components/LinkWithIcon";
+import Projects from "@/components/Projects";
 import Socials from "@/components/Socials";
 import { Button } from "@/components/ui/Button";
-import { FileDown } from "lucide-react";
+import { FileDown, ArrowRightIcon } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
 const JACOB_BIRTH_YEAR = 2005;
+const LIMIT = 4;
 
 export default async function Home() {
   return (
@@ -45,6 +46,18 @@ export default async function Home() {
 
       <Experience />
 
+      <section className="flex flex-col gap-8">
+        <div className="flex justify-between">
+          <h2 className="title text-2xl sm:text-3xl font-serif">featured projects</h2>
+          <LinkWithIcon
+            href="https://github.com/jacobkly"
+            position="right"
+            icon={<ArrowRightIcon className="size-5" />}
+            text="view more"
+          />
+        </div>
+        <Projects limit={LIMIT} />
+      </section>
 
     </article>
   );
