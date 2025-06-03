@@ -4,7 +4,7 @@
             "name": "Junt Industries",
             "href": "https://www.juntindustries.com/",
             "title": "Software Engineer (Intern)",
-            "logo": "/junt_2.png",
+            "logo": "/junt.png",
             "start": "June 2025",
             "end": "Sep. 2025"
         },
@@ -27,7 +27,7 @@
             "start": "Jan 2025",
             "end": "May 2025",
             "description": [
-                "Performed a Systematic Mapping Study on autonomous drone security as the first author, published at an A-ranked software engineering conference.",
+                "Performed a Systematic Mapping Study on autonomous drone security as the first author, entered at an A-ranked software engineering conference.",
                 "Identified spoofing and network attacks as the primary threats, with machine learning emerging as the leading detection technique."
             ]
         }
