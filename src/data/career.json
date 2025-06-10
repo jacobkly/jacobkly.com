@@ -14,9 +14,10 @@
             "title": "Computer Science Grader",
             "logo": "/uw.png",
             "start": "Mar 2025",
+            "end": "June 2025",
             "description": [
-                "Evaluating Java projects on correctness and object-oriented design principles.",
-                "Providing feedback to enhance student growth and code quality."
+                "Evaluated Java projects on correctness and object-oriented design principles.",
+                "Constructed feedback to enhance student growth and code quality."
             ]
         },
         {
