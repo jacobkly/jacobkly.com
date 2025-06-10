@@ -1,15 +1,13 @@
 import { Experience } from "@/lib/schemas";
 import Link from "next/link";
 import { Avatar, AvatarFallback, AvatarImage } from "./ui/Avatar";
-import { Badge } from "./ui/Badge";
-import Icon from "./Icon";
 
 interface Props {
     experience: Experience;
 }
 
 export default function TimelineItem({ experience }: Props) {
-    const { name, href, title, logo, start, end, description, links } =
+    const { name, href, title, logo, start, end, description } =
         experience;
 
     return (
