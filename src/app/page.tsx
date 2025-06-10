@@ -1,5 +1,6 @@
 import Experience from "@/components/Experience";
 import LinkWithIcon from "@/components/LinkWithIcon";
+import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
 import Socials from "@/components/Socials";
 import { Button } from "@/components/ui/Button";
@@ -47,6 +48,11 @@ export default async function Home() {
       <Experience />
 
       <section className="flex flex-col gap-8">
+        <h2 className="title text-2xl sm:text-3xl font-serif">skills</h2>
+        <Skills />
+      </section>
+
+      <section className="flex flex-col gap-8">
         <div className="flex justify-between">
           <h2 className="title text-2xl sm:text-3xl font-serif">featured projects</h2>
           <LinkWithIcon
@@ -59,6 +65,6 @@ export default async function Home() {
         <Projects limit={LIMIT} />
       </section>
 
-    </article>
+    </article >
   );
 }
