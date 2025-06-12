@@ -9,7 +9,7 @@ export default function Footer() {
                 <p className="text-center text-xs text-muted-foreground">
                     <span>&copy; {new Date().getFullYear()}</span>{" "}
                     <Link className="link" href="/">
-                        jacobkly.com
+                        www.jacobkly.com
                     </Link>
                     {" | "}
                     <span style={{ fontSize: "1.25em" }}>🎷🎸</span>
